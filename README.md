@@ -2,6 +2,7 @@
 Process DICOM-RT files with a simple GUI to get specified metrics and a nice DVH plot
 
 Here is a standard use-case for this script
+
 ![GIF 1](https://github.com/Kiragroh/Python_DICOM-RT-MetricExtractor/blob/main/DICOM-RT%20Metric-Extractor.gif)
 
 Note:
