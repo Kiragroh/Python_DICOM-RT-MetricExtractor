@@ -1,5 +1,10 @@
 # Python_DICOM-RT-MetricExtractor
-Process DICOM-RT files with a simple GUI to get specified metrics and a nice DVH plot
+Process DICOM-RT files with a simple GUI to get specified metrics and a nice DVH plot. You can process many plans at once.
+
+How to use?:
+- start the program with your python compiler (maybe you have to install needed packages -> pydicom and dicompyler-core)
+- choose a directory with DICOM-RT-files (you need the following files per plan: RT, RS, RD)
+- the script is tested with Eclipse-Exports
 
 Here is a standard use-case for this script
 
