@@ -73,7 +73,7 @@ def browse2():
 def browse():
     global filez
     if window.counter < 1:
-        ipath="//localhost/TCS"
+        ipath="//special input start folder"
         initialpath = pathlib.Path(ipath)
         if initialpath.exists():
             filez = ipath
@@ -339,7 +339,7 @@ btn0.pack(pady=(5,0))
 lbl2 = tkinter.Label(window, text="Output-Path (empty: Input=Output)")
 lbl2.pack(pady = (15,0))
 ent2 = tkinter.Entry(window, width=100)
-opath="//variancom/Daten/PhysikDB/Gyn Afterloading QA/Results_MetricExtractor"
+opath="//special output start folder"
 #opath="/Users/Max/Desktop"
 standardOpath = pathlib.Path(opath)
 if standardOpath.exists():
